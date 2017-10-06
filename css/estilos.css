@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-danger.btn-outline {
+  font-family: 'Montserrat', sans-serif;
+  color: #F28C00;
+}
+
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+
+@charset "utf-8";
+header,nav,section,article,footer,figure{
+    display:block;
+}
+.limpiar{
+    clear:both;
+}
+#body1{
+    background:url(../img/fondo-web.jpg) repeat-x fixed;
+    background:linear-gradient(top, #FFF, #353535 356px, #000 356px, #353535) repeat-x fixed;
+    background:-moz-linear-gradient(top, #FFF, #353535 356px, #000 356px, #353535) repeat-x fixed;
+    background:-o-linear-gradient(top, #FFF, #353535 356px, #000 356px, #353535) repeat-x fixed;
+    background:-ms-linear-gradient(top, #FFF, #353535 356px, #000 356px, #353535) repeat-x fixed;
+    background:-webkit-linear-gradient(top, #FFF, #353535 356px, #000 356px, #353535) repeat-x fixed;
+    /*margin:23px 0;*/
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#000;
+    margin:6px;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    color:#000;
+    margin:6px;
+}
+.textopie{
+    color:#FFF;
+    text-align:center;
+}
+a.enlacecpw{
+    color:#F2C512;
+    text-decoration:none;
+}
+.titulos-internos{
+    font-family:"Times New Roman", Times, serif;
+    font-size:59px;
+    color:#999999;
+    border-bottom:9px #00C6F7 solid;
+    display:block;
+}
+
+/*---- Maquetacion -----*/
+#contenedor{
+    /*border: 2px green solid;*/
+    width:1000px;
+    margin:0 auto;
+}
+#cabecera{
+    /*border: 2px red solid;*/
+    /*height:123px;*/
+    width: 25%;
+    display:block;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+#menu{
+    height:150px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top:120px;
+}
+#piepagina{
+    height:112px;
+    margin-top:45px;
+}
+/*---- Menu principal -----*/
+#menu ul{
+    /*margin:0 auto;*/
+    padding:0;
+    list-style:none;
+}
+#menu li a{
+    width:150px;
+    height:150px;
+    display:block;
+    background:url(../img/fondo-boton.png) no-repeat;
+    background:linear-gradient(top,#EFE527,#F2C512);
+    background:-moz-linear-gradient(top,#EFE527,#F2C512);
+    background:-o-linear-gradient(top,#EFE527,#F2C512);
+    background:-ms-linear-gradient(top,#EFE527,#F2C512);
+    background:-webkit-linear-gradient(top,#EFE527,#F2C512);
+    border-radius:10px;
+    float:left;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:18px;
+    color:#000;
+    text-align:center;
+    text-decoration:none;
+    margin-right:23px;
+    padding-top:90px;
+    position:relative;
+    transition:transform 0.4s;
+    -moz-transition:-moz-transform 0.4s;
+    -ms-transition:-ms-transform 0.4s;
+    -o-transition:-o-transform 0.4s;
+    -webkit-transition:-webkit-transform 0.4s;
+}
+#menu li a:hover{
+    transform:scale(1.3,1.3) rotate(20deg);
+    -moz-transform:scale(1.3,1.3) rotate(20deg);
+    -o-transform:scale(1.3,1.3) rotate(20deg);
+    -ms-transform:scale(1.3,1.3) rotate(20deg);
+    -webkit-transform:scale(1.3,1.3) rotate(20deg);
+}
+#menu li a #icono1{
+    width:54px;
+    height:54px;
+    display:block;
+    background:url(../img/icono-cursos.png) no-repeat;
+    position:absolute;
+    left:48px;
+    top:20px;
+}
+#menu li a:hover #icono1{
+    
+}
+#menu li a #icono2{
+    width:54px;
+    height:54px;
+    display:block;
+    background:url(../img/icono-videos.png) no-repeat;
+    position:absolute;
+    left:48px;
+    top:20px;
+}
+#menu li a:hover #icono2{
+
+}
+#menu li a #icono3{
+    width:74px;
+    height:59px;
+    display:block;
+    background:url(../img/icono-instructores.png) no-repeat;
+    position:absolute;
+    left:38px;
+    top:16px;
+}
+#menu li a:hover #icono3{
+    
+}
+#menu li a #icono4{
+    width:72px;
+    height:59px;
+    display:block;
+    background:url(../img/icono-comprar.png) no-repeat;
+    position:absolute;
+    left:39px;
+    top:16px;
+}
+#menu li a:hover #icono4{
+    
+}
+#menu li a #icono5{
+    width:63px;
+    height:47px;
+    display:block;
+    background:url(../img/icono-contacto.png) no-repeat;
+    position:absolute;
+    left:44px;
+    top:27px;
+}
+#menu li a:hover #icono5{
+    
+}
+/*--- Sociales ----*/
+.sociales{
+    width:180px;
+    display:block;
+    margin:0 auto;
+    padding:0;
+    list-style:none;
+}
+.sociales li a{
+    width:38px;
+    height:38px;
+    display:block;
+    float:left;
+    margin-right:6px;
+}
+
+/*--------------------footer---------------*/
+
+.pie2 {
+    background-color: #000;
+    height: 100px;
+    overflow: hidden;
+    clear: both;
+}
+
+.pie2 p {
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin-top: 2%;
+}
+
+/*-----------nosotros--------------*/
+#body2{
+    background-color: #F9F9F9;
+}
+.seccion1{
+    /*border: 2px red solid;*/
+    overflow: hidden;
+    clear: both;
+    margin-top: 5%;
+}
+.texto{
+    font-size: 17px;
+    text-align: justify;
+}
+.tit{
+    font-size: 35px;
+    margin-top: 25%;
+}
+.izquierda{
+    width: 50%;
+}
+.derecha{
+    width: 45%;
+}
+.seccion1{
+    /*background-color: #fff;*/
+    padding: 8% 0% 5% 0%;
+}
+.seccion2{
+    background-color: #fff;
+    padding: 8% 0% 5% 0%;
+}
+.texto2{
+    font-size: 16px;
+    text-align: justify;
+}
+.texto2 li{
+    font-size: 16px;
+    text-align: justify;
+}
+/*--------------------servicios-------------*/
+.banners {
+    position: relative;
+    width: 100%;
+    height: 363px;
+    background: url('../img/banners2.jpg');
+    background-size: cover;
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+.banners p{
+    width: 70%;
+    font-size: 45px;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    padding: 5% 0% 5% 0%;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+.textos{
+    font-size: 22px;
+    text-align: center;
+    padding: 8% 0% 3% 0%;
+    width: 70%;
+    margin: 0 auto;
+}
+.bannerdentros{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: url('../img/textiles.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin-top: 8%;
+}
+.bannerdentros p{
+    width: 70%;
+    font-size: 45px;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    padding: 5% 0% 5% 0%;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+.imagen{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/ropa.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.imagen2{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/zapatos.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.imagen3{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/bisuteria.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.imagen4{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/hilos.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.imagen5{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/mochilas.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.imagen6{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/gorra.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.bannerdentros2{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: url('../img/limpieza.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    /*margin-top: 8%;*/
+}
+.bannerdentros2 p{
+    width: 70%;
+    font-size: 45px;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    padding: 5% 0% 5% 0%;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+.imagen7{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/clor.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.imagen8{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/trapeador.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.imagen9{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/jaladores.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.imagen10{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/toallas.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.imagen11{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/jabones.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.imagen12{
+    /*border: 2px red solid;*/
+    width: 100%;
+    height: 270px;
+    position: relative;
+    background: url('../img/personal.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/*--------------contacto---------*/
+.mapa{
+    width: 100%;
+    margin-top: 4%;
+}
+.mapa iframe{
+    width: 100%;
+}
+.contact-form {
+    margin-top:70px;
+}
