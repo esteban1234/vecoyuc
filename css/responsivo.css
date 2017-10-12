@@ -1,0 +1,584 @@
+@media screen and (max-width: 480px){
+
+    #contenedor{
+        width: 100%;
+        height: 100%;
+    }
+
+    #cabecera{
+        width: 40%;
+    }
+
+    #menu{
+        margin: 10px auto;
+        height: 100% !important;
+        width: 100% !important;
+        overflow: hidden;
+        text-align: center !important;
+    }
+
+    #menu ul{
+        height: 100%;
+        margin: auto !important;
+        overflow: hidden;
+        text-align: center !important;
+    }
+
+    #menu ul li{
+        height: 100%;
+        text-align: center !important;
+    }
+
+    #menu ul li a{
+        float: none !important;
+        margin: 5px  auto !important;
+        text-align: center !important;
+    }
+
+    #menu li a:hover{
+        transform:none;
+        -moz-transform:none;
+        -o-transform:none;
+        -ms-transform:none;
+        -webkit-transform:none;
+    }
+
+    #piepagina{
+        width: 100% !important;
+        height: 100%;
+        margin: 0px;
+        display: none
+    }
+
+   .textopie{
+       font-size: 18px;
+   }
+
+   .textopie span{
+       display: none;
+   }
+
+   /* **************DISEÑO NOSOTROS********************** */
+
+
+   .seccion1{
+       padding: 0px !important;
+       margin: 0px !important;
+   }
+
+   .seccion1 .container{
+       margin-top: 0px;
+   }
+   
+   .tit{
+       text-align: center;
+       font-size: 24px;
+       font-weight: bold;
+   }
+
+   .img-newdiseno{
+       width: 60%;
+       margin: auto;
+   }
+
+   .derecha, .izquierda{
+       width: 100%;
+   }
+
+   .izquierda{
+       text-align: center;
+   }
+
+   .alinear-texto{
+       width: 50%;
+       margin: auto;
+   }
+
+   /* ***************END DISEÑO NOSOTROS**************** */
+
+   /* **************DISEÑO SERVICIOS********************** */
+   .banners, .bannerdentros, .bannerdentros2{
+       background-size: 100% 200%;
+       height: 100%;
+   }
+
+   .banners p{
+       font-size: 25px;
+       margin-top: 80px;
+       margin-bottom: 30px;
+   }
+
+   .bannerdentros p, .bannerdentros2 p{
+        font-size: 25px;
+        margin: 20px auto;
+   }
+   
+   .textos{
+       width: 95%;
+       text-align: justify;
+       font-size: 20px;
+   }
+   
+   .imagen, .imagen2, .imagen3, .imagen4, .imagen5, .imagen6,
+   .imagen7, .imagen8, .imagen9, .imagen10, .imagen11, .imagen12{
+       height: 150px;
+       border-radius: 10px;
+       border: .5px solid rgba(0,0,0, 0.3);
+   }
+
+   .txt-tit{
+       text-align: center;
+       margin-top: 3px;
+       color: #000 !important;
+       font-size: 20px;
+       font-weight: bold;
+   }
+   /* ***************END DISEÑO SERVICIOS**************** */
+
+
+   /* **************DISEÑO CONTACTO********************** */
+   .txt-h3{
+       text-align: center;
+   }
+    /* ***************END DISEÑO CONTACTO**************** */
+
+
+   /* **************DISEÑO FOOTER********************** */
+   .pie2{
+    height: 100% !important;
+   }
+
+   .pie2 p{
+       width: 100%;
+       margin: 15px auto;
+       font-size: 18px;
+   }
+
+   /* ***************END DISEÑO FOOTER**************** */
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+    #contenedor{
+        width: 100%;
+        height: 100%;
+    }
+
+    #cabecera{
+        width: 35%;
+    }
+
+    #menu{
+        margin: 10px auto;
+        height: 100% !important;
+        width: 100% !important;
+        overflow: hidden;
+        text-align: center !important;
+    }
+
+    #menu ul{
+        height: 100%;
+        margin: auto !important;
+        overflow: hidden;
+        text-align: center !important;
+        /* border: 2px solid green; */
+    }
+
+    #menu ul li{
+        height: 100%;
+        text-align: center !important;
+        width: 48%;
+        margin: 0px !important;
+        display: inline-block;
+    }
+
+    #menu ul li a{
+        float: none !important;
+        margin: 5px  auto !important;
+        text-align: center !important;
+        width: 80%;
+        text-align: center !important;
+    }
+
+    #menu li a:hover{
+        transform:none;
+        -moz-transform:none;
+        -o-transform:none;
+        -ms-transform:none;
+        -webkit-transform:none;
+    }
+
+    #menu li a #icono1 , #menu li a #icono3, #menu li a #icono4, #menu li a #icono5{
+        left: 70px;
+    }
+
+    #piepagina{
+        width: 100% !important;
+        height: 100%;
+        margin: 0px;
+        display: none
+    }
+
+   .textopie{
+       font-size: 18px;
+   }
+
+   .textopie span{
+       display: none;
+   }
+
+   /* **************DISEÑO NOSOTROS********************** */
+
+
+   .seccion1{
+       padding: 0px !important;
+       margin: 0px !important;
+   }
+
+   .seccion1 .container{
+       margin-top: 0px;
+   }
+   
+   .tit{
+       text-align: center;
+       font-size: 24px;
+       font-weight: bold;
+   }
+
+   .img-newdiseno{
+       width: 60%;
+       margin: auto;
+   }
+
+   .derecha, .izquierda{
+       width: 100%;
+   }
+
+   .izquierda{
+       text-align: center;
+   }
+
+   .alinear-texto{
+       width: 50%;
+       margin: auto;
+   }
+
+   /* ***************END DISEÑO NOSOTROS**************** */
+
+   /* **************DISEÑO SERVICIOS********************** */
+   .banners, .bannerdentros, .bannerdentros2{
+       background-size: 100% 200%;
+       height: 100%;
+   }
+
+   .banners p{
+       font-size: 25px;
+       margin-top: 80px;
+       margin-bottom: 30px;
+   }
+
+   .bannerdentros p, .bannerdentros2 p{
+        font-size: 25px;
+        margin: 20px auto;
+   }
+   
+   .textos{
+       width: 95%;
+       text-align: justify;
+       font-size: 20px;
+   }
+   
+   .imagen, .imagen2, .imagen3, .imagen4, .imagen5, .imagen6,
+   .imagen7, .imagen8, .imagen9, .imagen10, .imagen11, .imagen12{
+       height: 200px;
+       border-radius: 10px;
+       border: .5px solid rgba(0,0,0, 0.3);
+   }
+
+   .txt-tit{
+       text-align: center;
+       margin-top: 3px;
+       color: #000 !important;
+       font-size: 20px;
+       font-weight: bold;
+   }
+   /* ***************END DISEÑO SERVICIOS**************** */
+
+
+   /* **************DISEÑO CONTACTO********************** */
+   .txt-h3{
+       text-align: center;
+   }
+    /* ***************END DISEÑO CONTACTO**************** */
+
+
+   /* **************DISEÑO FOOTER********************** */
+   .pie2{
+    height: 100% !important;
+   }
+
+   .pie2 p{
+       width: 100%;
+       margin: 15px auto;
+       font-size: 18px;
+   }
+
+   /* ***************END DISEÑO FOOTER**************** */
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+    #contenedor{
+        width: 100%;
+        height: 100%;
+    }
+
+    #cabecera{
+        width: 30%;
+    }
+
+    #menu{
+        margin: 40px auto;
+        height: 100% !important;
+        width: 100% !important;
+        overflow: hidden;
+        text-align: center !important;
+    }
+
+    #menu ul{
+        height: 100%;
+        margin: auto !important;
+        overflow: hidden;
+        text-align: center !important;
+        /* border: 2px solid green; */
+    }
+
+    #menu ul li{
+        height: 100%;
+        text-align: center !important;
+        width: 20%;
+        margin: 0px !important;
+        display: inline-block;
+    }
+
+    #menu ul li a{
+        float: none !important;
+        margin: 5px  auto !important;
+        text-align: center !important;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    #menu li a:hover{
+        transform:none;
+        -moz-transform:none;
+        -o-transform:none;
+        -ms-transform:none;
+        -webkit-transform:none;
+    }
+
+    #menu li a #icono1 , #menu li a #icono3, #menu li a #icono4, #menu li a #icono5{
+        left: 35px;
+    }
+
+    #piepagina{
+        width: 100% !important;
+        height: 100%;
+        margin: 0px;
+        display: none
+    }
+
+   .textopie{
+       font-size: 18px;
+   }
+
+   .textopie span{
+       display: none;
+   }
+
+   /* **************DISEÑO NOSOTROS********************** */
+
+
+   .seccion1{
+       padding: 0px !important;
+       margin: 0px !important;
+   }
+
+   .seccion1 .container{
+       margin-top: 0px;
+   }
+   
+   .tit{
+       text-align: center;
+       font-size: 28px;
+       font-weight: bold;
+   }
+
+   .img-newdiseno{
+       width: 60%;
+       margin: auto;
+   }
+
+   /* ***************END DISEÑO NOSOTROS**************** */
+
+      /* **************DISEÑO SERVICIOS********************** */
+      .banners, .bannerdentros, .bannerdentros2{
+        background-size: 100% 200%;
+        height: 100%;
+    }
+ 
+    .banners p{
+        font-size: 28px;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+ 
+    .bannerdentros p, .bannerdentros2 p{
+         font-size: 27px;
+         margin: 20px auto;
+    }
+    
+    .textos{
+        width: 95%;
+        text-align: justify;
+        font-size: 20px;
+    }
+    
+    .imagen, .imagen2, .imagen3, .imagen4, .imagen5, .imagen6,
+    .imagen7, .imagen8, .imagen9, .imagen10, .imagen11, .imagen12{
+        height: 200px;
+        border-radius: 10px;
+        border: .5px solid rgba(0,0,0, 0.3);
+    }
+ 
+    .txt-tit{
+        text-align: center;
+        margin-top: 3px;
+        color: #000 !important;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* ***************END DISEÑO SERVICIOS**************** */
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+
+    #contenedor{
+        width: 100%;
+        height: 100%;
+    }
+
+    #cabecera{
+        width: 25%;
+    }
+
+    #menu{
+        margin: 40px auto;
+        height: 100% !important;
+        width: 100% !important;
+        overflow: hidden;
+        text-align: center !important;
+    }
+
+    #menu ul{
+        height: 100%;
+        width: 100%;
+        margin: auto !important;
+        overflow: hidden;
+        text-align: center !important;
+        /* border: 2px solid green; */
+    }
+
+    #menu ul li{
+        height: 100%;
+        text-align: center !important;
+        width: 23%;
+        margin: 0px !important;
+        display: inline-block;
+    }
+
+    #menu ul li a{
+        float: none !important;
+        margin: 5px  auto !important;
+        text-align: center !important;
+        width: 100%;
+        text-align: center !important;
+    }
+
+    #menu li a:hover{
+        transform:none;
+        -moz-transform:none;
+        -o-transform:none;
+        -ms-transform:none;
+        -webkit-transform:none;
+    }
+
+    #menu li a #icono1 , #menu li a #icono3, #menu li a #icono4, #menu li a #icono5{
+        left: 70px;
+    }
+
+    #piepagina{
+        width: 100% !important;
+        height: 100%;
+        margin: 0px;
+        display: none
+    }
+
+   .textopie{
+       font-size: 18px;
+   }
+
+   .textopie span{
+       display: none;
+   }
+
+
+
+       /* **************DISEÑO SERVICIOS********************** */
+       .banners, .bannerdentros, .bannerdentros2{
+        background-size: 100% 200%;
+        height: 100%;
+    }
+ 
+    .banners p{
+        font-size: 28px;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+ 
+    .bannerdentros p, .bannerdentros2 p{
+         font-size: 27px;
+         margin: 20px auto;
+    }
+    
+    .textos{
+        width: 95%;
+        text-align: justify;
+        font-size: 20px;
+    }
+    
+    .imagen, .imagen2, .imagen3, .imagen4, .imagen5, .imagen6,
+    .imagen7, .imagen8, .imagen9, .imagen10, .imagen11, .imagen12{
+        height: 200px;
+        border-radius: 10px;
+        border: .5px solid rgba(0,0,0, 0.3);
+    }
+ 
+    .txt-tit{
+        text-align: center;
+        margin-top: 3px;
+        color: #000 !important;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* ***************END DISEÑO SERVICIOS**************** */
+
+    .img-newdiseno{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

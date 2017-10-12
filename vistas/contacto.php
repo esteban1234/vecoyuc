@@ -39,8 +39,8 @@
 
 <div class="container" style="margin-bottom: 3%;">
     <div class="row">
-        <div class="col-sm-4">
-            <h3>Formulario de contacto</h3>
+        <div class="col-sm-5 col-md-3 col-lg-4">
+            <h3 class="txt-h3">Formulario de contacto</h3>
             <hr>
             <address>
                 <strong>Dirección:</strong> C. Plaza Melchor Ocampo # 36 por Rio Ganges y Rio Mississippi. Col. Cuauhtémoc, CDMX. C.P. 06500.<br><br>
@@ -50,24 +50,25 @@
             </address>
         </div>
             
-        <div class="col-sm-8 contact-form">
-            <form id="contact" method="post" class="form" role="form">
+        <div class="col-sm-7 col-md-9 col-lg-8 contact-form">
+            <form id="contact" method="post" class="form" role="form" onSubmit="return false" >
             <div class="row">
             <div class=" col-md-4 form-group">
-            <input class="form-control" id="name" name="name" placeholder="Escribe tu nombre completo" type="text" required />
+            <input class="form-control" id="txtNOMBRE" name="name" placeholder="Escribe tu nombre completo" type="text" required />
             </div>
             <div class=" col-md-4 form-group">
-            <input class="form-control" id="name" name="name" placeholder="Escribe tu teléfono" type="text" required />
+            <input class="form-control" id="txtTELEFONO" name="name" placeholder="Escribe tu teléfono" type="text" required />
             </div>
             <div class=" col-md-4 form-group">
-            <input class="form-control" id="email" name="email" placeholder="Escribe tu correo" type="email" required />
+            <input class="form-control" id="txtCORREO" name="email" placeholder="Escribe tu correo" type="email" required />
             </div>
             </div>
-            <textarea class="form-control" id="message" name="message" placeholder="Escribe tu comentario" rows="5"></textarea>
+            <textarea class="form-control" id="txtCOMENTARIO" name="message" placeholder="Escribe tu comentario" rows="5"></textarea>
             <br />
             <div class="row">
             <div class="col-xs-12 col-md-12 form-group">
-            <button class="btn btn-warning pull-right" type="submit">Enviar</button>
+            <div id="_AJAX_PRE_"></div>
+            <button class="btn btn-warning pull-right" type="submit" onclick="sendCORREO()">Enviar</button>
             </form>
         </div>
         </div>

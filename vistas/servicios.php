@@ -49,53 +49,53 @@
     <div class="section seccion2">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-sm-4 col-md-12">
             <!-- <h1 class="text-center">Gallery</h1> -->
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen">
                 
             </figure>
-            <h3 style="color: #E9CB15;">Ropa</h3>
+            <h3 class="txt-tit" style="color: #E9CB15;">Ropa</h3>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen2">
                 
             </figure>
-            <h2 style="color: #E9CB15;">Zapatos</h2>
+            <h2 class="txt-tit" style="color: #E9CB15;">Zapatos</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen3">
                 
             </figure>
-            <h2 style="color: #E9CB15;">Bisuteria</h2>
+            <h2 class="txt-tit" style="color: #E9CB15;">Bisuteria</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen4">
                 
             </figure>
-            <h3 style="color: #E9CB15;">Hilos</h3>
+            <h3 class="txt-tit" style="color: #E9CB15;">Hilos</h3>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen5">
                 
             </figure>
-            <h3 style="color: #E9CB15;">Mochilas</h3>
+            <h3 class="txt-tit" style="color: #E9CB15;">Mochilas</h3>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen6">
                 
             </figure>
-            <h2 style="color: #E9CB15;">Gorras</h2>
+            <h2 class="txt-tit" style="color: #E9CB15;">Gorras</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
         </div>
@@ -111,53 +111,53 @@
     <div class="section seccion2">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-sm-4 col-md-12">
             <!-- <h1 class="text-center">Gallery</h1> -->
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen7">
                 
             </figure>
-            <h3 style="color: #E9CB15;">Blanquedor</h3>
+            <h3 class="txt-tit" style="color: #E9CB15;">Blanquedor</h3>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen8">
                 
             </figure>
-            <h2 style="color: #E9CB15;">Trapedores</h2>
+            <h2 class="txt-tit" style="color: #E9CB15;">Trapedores</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen9">
                 
             </figure>
-            <h2 style="color: #E9CB15;">Jaladores</h2>
+            <h2 class="txt-tit" style="color: #E9CB15;">Jaladores</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
         </div> <br><br>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen10">
                 
             </figure>
-            <h3 style="color: #E9CB15;">Toallas</h3>
+            <h3 class="txt-tit" style="color: #E9CB15;">Toallas</h3>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen11">
                 
             </figure>
-            <h3 style="color: #E9CB15;">Jabones</h3>
+            <h3 class="txt-tit" style="color: #E9CB15;">Jabones</h3>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen12">
                 
             </figure>
-            <h2 style="color: #E9CB15;">Personal de limpieza</h2>
+            <h2 class="txt-tit" style="color: #E9CB15;">Personal de limpieza</h2>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p> -->
           </div>
         </div>

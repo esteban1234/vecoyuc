@@ -41,14 +41,13 @@
     <div class="section seccion1">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-xs-12 col-sm-7 col-md-6">
             <!-- <h1>A title</h1> -->
             <h3 class="tit">GRUPO VECOYUC</h3>
             <p class="texto">GRUPO VECOYUC es una empresa joven, conformada por profesionales enfocados a brindarle un servicio óptimo en la importación, comercialización y exportación de nuestras líneas de productos con la finalidad de satisfacer sus necesidades de equipamiento u optimización de la empresa, incentivar a sus empleados o posicionar sus marcas dentro del mercado.</p>
           </div>
-          <div class="col-md-6">
-            <img src="../img/vecoyuc.png"
-            class="img-responsive">
+          <div class="col-xs-12 col-sm-5 col-md-6">
+            <img src="../img/vecoyuc.png" class="img-responsive img-newdiseno">
           </div>
         </div>
       </div>
@@ -77,7 +76,7 @@
 
               <div role="tabpanel" class="tab-pane" id="seccion4">
                 <h3>VALORES</h3>
-                <p class="texto2">
+                <p class="texto2 alinear-texto">
                   <li> Responsabilidad</li>
                   <li> Respeto</li>
                   <li> Puntualidad</li>

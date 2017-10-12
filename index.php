@@ -36,8 +36,8 @@
     <!-- Piepagina -->
     <footer id="piepagina">
     	<p class="textopie">© Copyright <a href="#" class="enlacecpw">GRUPO VECOYUC S. de R.L de C.V.</a> Todos los derechos reservados el logo y el nombre son marcas registradas<br>
-        C. Plaza Melchor Ocampo # 36 por Rio Ganges y Rio Mississippi. Col. Cuauhtémoc, CDMX. C.P. 06500.<br>
-        Telfs. PENDIENTE, info@vecoyuc.com, Lunes a Viernes de 9 am a 6 pm</p>
+        <span>C. Plaza Melchor Ocampo # 36 por Rio Ganges y Rio Mississippi. Col. Cuauhtémoc, CDMX. C.P. 06500.<br>
+        Telfs. PENDIENTE, info@vecoyuc.com, Lunes a Viernes de 9 am a 6 pm</span></p>
         <!-- <ul class="sociales">
         	<li><a href="#"><img src="img/correo.png" width="38" height="38"></a></li>
             <li><a href="#"><img src="img/clock.png" width="38" height="38"></a></li>
